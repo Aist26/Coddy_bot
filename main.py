@@ -2,7 +2,7 @@ import vk_api
 from random import choice, randrange
 from vk_api.longpoll import VkLongPoll, VkEventType
 
-TOKEN = "vk1.a.vk2tJPMm5DSKzr13_KsNaoDA2nGkc-jmU4X53UUJDHSrmAaiPROzqst5WI4AcYnV0HaGmIkMI6SZ64K9b7AwzqjDOYNeMzo6AipMARtoVqsPlb1n-GosTA5sVnvmykqRmCbPORunUVH3hw2mbOJ9P1FXFceVPTEeJHdBMpsV9wCL3Xm0TC4E9zMvJ_JmthrVAlRDakLt7seSWap4u5falA"
+TOKEN = "vk1.a.vk2tJPMm5DSKzr13_KsNaoDA2nGkc-jmU4X53UUJDHSrmAaiPROzqst5WI4AcYnV0HaGmIkMI6SZ64K9b7AwzqjDOYNeMzo6AipMARtoVqsPlb1n-GosT5sVnvmykqRmCbPORunUVH3hw2mbOJ9P1FXFceVPTEeJHdBMpsV9wCL3Xm0TC4E9zMvJ_JmthrVAlRDakLt7seSWap4u5falA"
 
 vk_session = vk_api.VkApi(token=TOKEN)
 longpoll = VkLongPoll(vk_session)
